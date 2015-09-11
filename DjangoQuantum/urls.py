@@ -10,4 +10,5 @@ urlpatterns = patterns('',
     url(r'^v1/',include('DjangoQuantumApp.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
+
 )
