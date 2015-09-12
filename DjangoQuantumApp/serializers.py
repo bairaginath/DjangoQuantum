@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-__author__ = 'veradocs-web'
+__author__ = 'bairaginath'
 
 
 
