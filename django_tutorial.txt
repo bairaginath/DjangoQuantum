@@ -1,0 +1,35 @@
+Django
+======
+Django is a free and open source web application framework in python.
+
+Features available in Django are:
+================================
+a lightweight and standalone web server for development and testing.
+model–view–controller (MVC) architectural pattern.(a relational database ("Model"); a system for processing HTTP requests with a web templating system ("View") and a regular-expression-based URL dispatcher ("Controller")).
+Admin Interface (CRUD)
+Templating
+Form handling (a form serialization and validation system which can translate between HTML forms and values suitable for storage in the database)
+Internationalization
+Session, user management, role-based permissions
+Object-relational mapping (ORM)
+Testing Framework (an interface to Python's built in unit test framework)
+Fantastic Documentation
+a caching framework which can use any of several cache methods
+support for middleware classes which can intervene at various stages of request processing and carry out custom functions
+an internal dispatcher system which allows components of an application to communicate events to each other via pre-defined signals
+a serialization system which can produce and read XML and/or JSON representations of Django model instances
+
+The main Django distribution also bundles a number of applications in its "contrib" package, including:
+===================================================================================================
+an extensible authentication system
+the dynamic administrative interface
+tools for generating RSS and Atom syndication feeds
+a sites framework that allows one Django installation to run multiple websites, each with their own content and applications
+tools for generating Google Sitemaps
+built-in mitigation for cross-site request forgery, cross-site scripting, SQL injection, password cracking and other typical web attacks, most of them turned on by default[16][17]
+a framework for creating GIS applications
+
+create django project:
+======================
+django-admin.py startproject world # read all command from django-admin.py
+manage.py # read all command from manage.py
